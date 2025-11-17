@@ -43,8 +43,8 @@ export default function Navbar() {
               onClick={() => setActive(item.href)}
               className={`flex items-center space-x-2 text-sm font-bold transition-all px-3 py-1 rounded-full ${
                 active === item.href
-                  ? "bg-blue-600 text-white"
-                  : "text-gray-700 hover:text-blue-600"
+                  ? "bg-amber-400 text-white"
+                  : "text-gray-700 hover:text-amber-600"
               }`}
             >
               {item.icon}
