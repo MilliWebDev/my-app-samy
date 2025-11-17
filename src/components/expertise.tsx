@@ -3,14 +3,9 @@
 import { motion } from "motion/react";
 import { Code, Palette, BarChart, Globe } from "lucide-react";
 
-interface Skill {
-  icon: JSX.Element;
-  title: string;
-  description: string;
-}
 
 export default function ExpertiseSection() {
-  const skills: Skill[] = [
+  const skills = [
     {
       icon: <Code className="w-10 h-10" />,
       title: "Web Development",
