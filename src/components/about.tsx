@@ -1,9 +1,8 @@
 import Image from "next/image";
 export default function AboutSection() {
   return (
-    <section className="relative py-20 bg-white">
+    <section className="relative py-20 bg-white" id="about">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center gap-12">
-        
         {/* Left Image */}
         <div className="w-full md:w-1/2 flex justify-center">
           <div className="relative w-72 h-72 md:w-96 md:h-96">
@@ -28,15 +27,27 @@ export default function AboutSection() {
           </h2>
 
           <p className="text-gray-700 text-lg leading-relaxed">
-            Fondateur visionnaire de <span className="font-semibold text-blue-700">Phœnix Groupe</span>, 
+            Fondateur visionnaire de{" "}
+            <span className="font-semibold text-blue-700">Phœnix Groupe</span>,
             Mikael incarne la résilience, la stratégie et la transformation.
-            Guidé par une conviction profonde, il croit qu’aucune entreprise n’est destinée à disparaître tant qu’il reste une flamme pour la raviver.
+            Guidé par une conviction profonde, il croit qu’aucune entreprise
+            n’est destinée à disparaître tant qu’il reste une flamme pour la
+            raviver.
           </p>
 
           <p className="text-gray-700 leading-relaxed">
-            Entrepreneur, formateur et mentor, il accompagne dirigeants, startups 
-            et organisations dans leur renaissance stratégique : diagnostic, restructuration, 
-            croissance et leadership.  
+            Entrepreneur, formateur et mentor, il accompagne dirigeants,
+            startups et organisations dans leur renaissance stratégique :
+            diagnostic, restructuration, croissance et leadership.
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            Nous avons fondé notre entreprise avec une conviction forte : aucune
+            entreprise ne mérite de rester dans l’ombre lorsqu’elle a un
+            potentiel inexploité. Chaque structure, qu’elle soit petite, moyenne
+            ou en pleine croissance, possède une identité unique et des forces
+            qui peuvent être valorisées. C’est pour cette raison que nous
+            mettons tout en œuvre pour révéler, repositionner et relancer les
+            entreprises qui traversent une période difficile.
           </p>
 
           {/* Highlights */}
